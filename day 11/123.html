@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        height: 2000px;
+    }
+
+.static{
+    background-color: blueviolet;
+    height: 200px;
+    width:500px;
+color: aliceblue;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    z-index: 1;
+    top: 20px;
+}
+.relative1{
+    background-color: blue;
+    height: 200px;
+    width: 500px;
+color: aliceblue;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    z-index: 2;
+    bottom: 100px;
+
+}
+
+.relative2{
+    background-color: brown;
+      height: 200px;
+    width: 500px;
+    color: aliceblue;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    z-index: 3;
+    bottom: 259px;
+
+}
+.absolutemain{
+    background-color: aquamarine;
+    height: 200px;
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+.absolute-box{
+    background-color: bisque;
+    height: 100px;
+    width: 150px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+
+
+}
+.fixed{
+    background-color: brown;
+    height: 200px;
+    width: 500px;
+    color:aliceblue;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:100px;
+}
+    
+
+ </style>
+    
+
+
+</head>
+    <body>
+
+    
+    
+
+
+<body>
+    <div class="static">static</div><br>
+
+   <div class="relative1">relative1</div><br>
+
+    <div class="relative2">relative2</div>
+
+
+
+    <div class="absolutemain">
+        <div class="absolute-box">absolute-box</div>
+        <div class="fixed">fixed</div>
+
+
+    </div>
+
+    "    
+
+    
+</body>
+</html>

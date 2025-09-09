@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .title::before{
+            content: "\2764";
+            color:red;
+
+        }
+
+        .title::after{
+            content: "\2764";
+            color: blue;
+        }
+        p::first-letter{
+            font-size: 2em;
+            color:gold
+        }
+
+        p::first-line{
+            text-transform: uppercase;
+            background-color: blueviolet;
+        }
+        p::selection{
+            background-color: yellowgreen;
+            color: aquamarine;
+        }
+
+        li::marker{
+            color:red
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1 class="title">hello world</h1> 
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis molestiae minima non tempore, corrupti est! Est non pariatur fugiat quis!</p>
+  
+  <ul>
+    <li>dog</li>
+    <li>cat</li>
+    <li>rabbit</li>
+  </ul>
+</body>
+</html>

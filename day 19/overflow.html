@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .box{
+            background-color: red;
+            height: 60px;
+            width: 60px;
+            animation-name: box;
+            animation-duration: 4s;
+            border-radius: 90%;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-delay: 0.3s;
+            animation-direction: alternate;
+          
+            
+
+        }
+
+        .box1{
+           background-color:green;
+            height: 60px;
+            width: 60px;
+            animation-name: box;
+            animation-duration: 4s;
+            border-radius: 90%;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+                animation-delay: 0.6s;
+                animation-direction: alternate;
+    
+           
+        }
+
+        .box2{
+           background-color:blue;
+            height: 60px;
+            width: 60px;
+            animation-name: box;
+            animation-duration: 4s;
+            border-radius: 90%;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+             animation-delay: 0.9s;
+             animation-direction: alternate;
+           
+        }
+
+
+        @keyframes box{
+            0%{
+                transform: translate(0px,0px);
+
+            }
+            20%{
+                transform: translate(240px,200px);
+
+            }
+
+            40%{
+                transform: translate(480px,0px);
+            }
+
+            60%{
+                transform: translate(720px,200px);
+            }
+
+            80%{
+                transform: translate(960px,0px);
+            }
+            100%{
+                transform: translate(1200px,200px);
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box"></div>          
+                
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .box1{
+            background-color: aqua;
+            height: 150px;
+            width: 150px;
+            margin: 150px;
+            position: relative;
+            left: 200px;
+            transition: 3s ease;
+            
+        }
+        .box1:hover{
+            transform:scale(2.5) ;
+
+        }
+        .box2{
+            background-color: aqua;
+            height: 150px;
+            width: 150px;
+            margin: 150px;
+            transition:3s ease;
+          
+        }
+        .box2:hover{
+            transform: scale(2.5);
+        }
+        .big{
+            display: flex;
+        }
+
+        .box3{
+           background-color:red;
+            height: 150px;
+            width: 150px;
+            margin: 150px;
+            position: absolute;
+            left: 200px;
+            transition: 4s ease-in;
+            top: 200px;
+
+        }
+        .box3:hover{
+            transform: rotate3d(1,1,1,45deg);
+
+
+
+        }
+        .box4{
+           background-color:red;
+            height: 150px;
+            width: 150px;
+            margin: 150px;
+            position: absolute;
+            left: 450px;
+            transition: 4s ease-in;
+            top: 200px;
+
+        }
+        .box4:hover{
+transform: rotate3d(1,1,1,45deg);
+
+        }
+        
+
+        .box5{
+            background-color:blueviolet;
+            height: 150px;
+            width: 150px;
+            margin: 150px;
+            position: absolute;
+            left: 450px;
+           transition:transform 1s ease;
+           
+            top: 450px;
+        }
+        .box5:hover{
+                transform: skew(20deg);
+        }
+    
+           
+        
+        .box6{
+         background-color:blueviolet;
+            height: 150px;
+            width: 150px;
+            margin: 150px;
+            position: absolute;
+            left: 200px;
+            transition:transform 1s ease;
+            top: 450px; 
+
+        }
+  
+        .box6 :hover{
+            transform: skew(20deg);
+        }
+        .short{
+            display: flex;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="big">
+    <div class="box1"></div>
+
+    <div class="box2"></div>
+    </div>
+
+
+    <div class="small">
+    <div class="box3"></div>
+    <div class="box4"></div>
+    </div>
+
+    <div class="short">
+        <div class="box5"></div>
+        <div class="box6"></div>
+    </div>
+</body>
+</html>
